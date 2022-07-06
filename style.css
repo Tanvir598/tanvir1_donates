@@ -1,0 +1,309 @@
+body
+{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0%;
+
+}
+
+.header
+{
+    background-image: url(images/donations.jpg);
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-size: cover;
+    background-position: right center;
+    
+    padding: 220px 0;
+    text-align: center;
+    font-size: 30px;
+
+ 
+}
+
+.link-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.donate-container
+{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.paragraph
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.h1
+{
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flexible
+{
+    display: flex;
+    
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.box
+{
+    
+    width: 50%;
+    background-color: rgb(248, 245, 245);
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 30px ;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+.box:hover
+{
+    
+    
+    background-color: rgb(234, 238, 4);
+    border: 2px solid rgb(241, 130, 2);;
+   
+}
+#d1
+{
+   
+ 
+    
+    margin-left: 50px;
+ 
+   
+}
+
+#d2
+{
+
+   
+    margin-left: 20px;
+    
+
+   
+}
+
+#d3
+{
+    
+  
+    margin-left: 20px;
+ 
+   
+}
+
+#d4
+{
+    
+    margin-left: 20px;
+}
+
+#d5
+{
+    margin-left: 20px;
+   
+}
+
+.donate-other
+{
+    margin-top: 60px;
+   
+}
+input-amount
+{
+    
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.link-button2
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(191, 255, 71));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+
+/*.donate-plan
+{
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}*/
+
+.flexible2
+{
+    display: flex;
+    
+    margin-bottom: 100px;
+    text-align: center;
+    
+    
+    
+}
+
+.experience-area
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 2%;
+}
+
+
+.experience-item
+{
+    width: 40%;
+   
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+   /* box-shadow: 10px 10px 40px gray;*/
+    border-radius: 10px;
+    
+}
+
+#donate-plan-op1{
+   /* border-left: 7px solid tomato;*/
+    text-align: left;
+    padding: 50px 15px 40px 10px;
+    background-color: #91E4F0;
+
+    
+}
+
+#donate-plan-op2
+{
+    
+    text-align: left;
+    padding: 50px 15px 40px 10px;
+    background-color: #ADF4AD;
+    margin-left: -50px;
+}
+
+#donate-plan-op3
+{
+    
+    text-align: left;
+    padding: 50px 15px 40px 10px;
+    background-color: #CDBFF9;
+    margin-left: -50px;
+}
+
+
+.img-op1{
+    
+    display: block;
+    
+}
+
+footer
+{
+    height: 150px;
+    width: 100%;
+    background-color: #24212C;
+
+}
+
+footer h1{
+    font-family: 'Dancing Script', cursive;
+    color: #EE572D;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.form-last{
+    width: 700px;
+  height: 170px;
+  padding: 50px ;
+  border: 1px solid red;
+  box-sizing: border-box;
+  margin-left: 24%;
+  background-color: #F7F8BE;
+  border-color: rgba(0,0,0,0);
+  border-radius: 5px;
+  margin-bottom: 150px;
+
+}
+
+.subs{
+    display: flex;
+    margin-left: 80px;
+    
+    
+    
+}
+
+input
+{
+    width: 250px;
+    height: 40px;
+    border-radius:5px 0px 5px 5px;
+    background-color: #F1EBE9;
+    border-color: rgba(0,0,0,0);
+    margin-top: 10px;
+    margin-left: 10px;
+    border:none;
+    outline-width: 0;
+    
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius:5px 5px 5px 0px;
+    background-color: salmon;
+    border-color: rgba(0,0,0,0);
+    margin-top: 10px;
+    border:none;
+    outline-width: 0;
+}
+
+
+footer p
+{
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
